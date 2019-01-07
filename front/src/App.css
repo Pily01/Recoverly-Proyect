@@ -37,21 +37,24 @@
 }
 
 .navbar{
-  background-color: #008080 !important;
+  background-color: goldenrod !important;
   font-size: 17px !important;
   color: antiquewhite !important;
+}
+.ui.item.menu .item {
+  color: white;
 }
 
 
 .profile{
   height: 300px;
   width: 100%;
-  background-image: url("https://www.wayfarersb.com/application/files/5414/5834/2510/Lodging_in_Downtown_Santa_Barbara.jpg");
+  background-image: url("https://www.society19.com/wp-content/uploads/2015/06/main2.jpg");
   background-size: cover;
 }
 
 .infoSection{
-  background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+  background-color: #e8e7e5;
   height: 400px;
   display: flex;
   align-content: center;

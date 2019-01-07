@@ -1,10 +1,14 @@
+///////////////////////////////////////////////////////////////////
+//////// S T A T I S T I C S   I N F O   C O M P O N E N T ///////
+//////////////////////////////////////////////////////////////////
+
 import React from 'react'
 
 export default function Info({moneySaved, plasticSaved, otherSaved}) {
   return (
     
     <div className="infoSection">
-      <div className="ui inverted statistics bigLetter">
+      <div className="ui statistics bigLetter">
         <div className="statistic">
           <div className="value">
           <i className="money bill alternate outline icon"></i> {moneySaved}

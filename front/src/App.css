@@ -53,6 +53,31 @@
   background-size: cover;
 }
 
+.inventoryBanner{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://www.tesa.com/en/files/images/201805/1/tesa-smooz-mood-16-9,730722_crop2x1_12.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.inventoryImg{
+  height: 400px;
+  width: 100%;
+}
+
+.inventoryImg2{
+  height: 400px;
+  width: 100%;
+}
+
+.hugeLetter{
+  font-size: 60px;
+}
+
 .infoSection{
   background-color: #e8e7e5;
   height: 400px;

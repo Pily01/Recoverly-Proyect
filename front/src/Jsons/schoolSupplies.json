@@ -1,47 +1,62 @@
 [
   {
+    "name":"Notebook",
+    "image":"https://cdna.4imprint.co.uk/prod/extras/701514/70049/700/1.jpg",
+    "quantity": 0,
+    "price": 5
+  },
+  {
     "name":"Post It Notes",
     "image":"https://i.ebayimg.com/images/g/JL8AAOSwZA1ae0AP/s-l300.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 6
   },
   {
     "name":"Small Marker Board",
     "image":"https://5.imimg.com/data5/LT/EP/MY-6764587/ceramic-writing-board-500x500.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 7
   },
   {
     "name":"Cork Board",
     "image":"https://images-na.ssl-images-amazon.com/images/I/81OKeU9WR8L._SX466_.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 7
   },
   {
     "name":"Board Markers",
     "image":"http://www.artline.com.au/wp-content/themes/artline/thumb.php?src=http://www.artline.com.au/wp-content/uploads/2013/01/Whiteboard-Specialty.png&w=299&h=212&zc=1",
-    "quantity": 0
+    "quantity": 0,
+    "price": 3
   },
   {
     "name":"Board Marker Eraser",
     "image":"https://www.quickship.com/images/office_supplies/cli-marker-board-eraser-white-pic1.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 3
   },
   {
     "name":"Black Pens",
     "image":"https://officedepot.scene7.com/is/image/officedepot/664011_p_bic_round_stic_ballpoint_pens?$OD%2DLarge$&wid=450&hei=450",
-    "quantity": 0
+    "quantity": 0,
+    "price": 2
   },
   {
     "name":"Colored Pens",
     "image":"http://2old2color.com/wp-content/uploads/2015/11/Colored-Gel-Pens-With-24-Gel-Refills-Amazing-Rainbow-Gel-Ink-Pen-Set-for-Adults-and-Kids-Includes-Black-White-Gold-and-Silver-Glitter-Neon-and-Pastel-Styles-24-Pack-With-Handy-Artist-Case-0-2.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 2
   },
   {
     "name":"Pencils",
     "image":"https://elvisswiftdrygoods.com/wp-content/uploads/613_Pencils_3.png",
-    "quantity": 0
+    "quantity": 0,
+    "price": 2
   },
   {
     "name":"Mechanical Pencil",
     "image":"https://cdn.shopify.com/s/files/1/1452/5590/products/Uni_Kuru_Toga_Roulette_Mechanical_Pencil-_Silver_-_0.5mm_large.jpg?v=1536670618",
-    "quantity": 0
+    "quantity": 0,
+    "price": 2
   }
 ]

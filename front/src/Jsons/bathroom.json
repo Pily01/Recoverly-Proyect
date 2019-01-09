@@ -2,26 +2,31 @@
   {
     "name":"Towels",
     "image":"https://images.crateandbarrel.com/is/image/Crate/RibbedGreyTowelGroupSHS16/?$web_product_hero$&160223141030&wid=625&hei=625",
-    "quantity": 0
+    "quantity": 0,
+    "price": 15
   },
   {
     "name":"Shower Caddy",
     "image":"https://target.scene7.com/is/image/Target/GUEST_6583923c-ae56-49c9-915c-e25de56fca0d?wid=488&hei=488&fmt=pjpeg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 8
   },
   {
     "name":"Mirror",
     "image":"https://www.wilko.com/assets/bWFzdGVyfHJvb3R8NDUxMDZ8aW1hZ2UvanBlZ3xoNDYvaDYwLzg4NTQ4NTY1MzE5OTguanBnfDhhYjFkZTFhNTcxZjcxMDVlMjEyOGU5ZDAwMTAyODU2ZDM1MGU5NGYwYjJhNzViYTVlYWZkM2RiNDJlMWUyZGE=/0327643-1.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Hair Dryer",
     "image":"https://www.samvilla.com/media/catalog/product/cache/1/thumbnail/800x/17f82f742ffe127f42dca9de82fb58b1/5/0/50015_01.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 23
   },
   {
     "name":"Hook Over The Door",
     "image":"https://cdn3.volusion.com/euhfr.xvuyx/v/vspfiles/photos/VHP-3HOTDBR-V05264-2T.png?1501151058",
-    "quantity": 0
+    "quantity": 0,
+    "price": 12
   }
 ]

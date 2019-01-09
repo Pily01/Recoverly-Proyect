@@ -1,7 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////////////////
+/////////////////// E L E C T R O N I C S   S T U D E N T  V I E W ////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
 import React, { Component } from 'react'
 import electronicItems from "../../Jsons/electronics.json"
 import ItemBox from "../helpers/ItemBox"
-import Navbar from '../helpers/Navbar.js';
+import Navbar from '../helpers/Navbar.js'
 import Message from "../helpers/Message"
 
 export default class ElectronicsStudent extends Component {
@@ -42,7 +47,7 @@ export default class ElectronicsStudent extends Component {
       <div>
         <Navbar main="student" link1="PROFILE" link2="SAVE" link3="INVENTORY" link4="CENTERS"/>
         <div className="electronicsBanner">
-          <p className="hugeLetter">Electronics</p>
+          <p className="hugeLetter">ELECTRONICS</p>
         </div>
         <div className="ui link cards">
           {drawItemBox()}

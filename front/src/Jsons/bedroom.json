@@ -2,51 +2,61 @@
   {
     "name":"Sheets",
     "image":"https://www.ghostbed.com/wp-content/uploads/2018/03/WhiteGraySheets_Prof-Angle_3-18.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Pillow",
     "image":"http://www.hiltontohome.com/images/products/lrg/hilton-down-alternative-pillow-HIL-PillowDownAlt_lrg.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Mattres Topper",
     "image":"https://cdn.shopify.com/s/files/1/1740/0017/products/puffy-mattress-pad-main-2.jpg?v=1542390295",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Mini Fan",
     "image":"https://5.imimg.com/data5/UB/XO/MY-25786111/mini-rechargeable-fan-500x500.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Hangers",
     "image":"https://www.containerstore.com/catalogimages/274734/TubularHangers_BPIW.jpg?width=1200&height=1200&align=center",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Laundry Hamper",
     "image":"https://www.target.com.au/medias/static_content/product/images/large/29/15/A842915.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Detergent",
     "image":"https://images-na.ssl-images-amazon.com/images/I/81y2CJJEP5L._SY355_.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Storage",
     "image":"https://www.containerstore.com/catalogimages/321888/10072179G-WOODGRAIN-BOLD-BOX-BLACK.jpg?width=1200&height=1200&align=center",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Garbage Can",
     "image":"https://images-na.ssl-images-amazon.com/images/I/51qUJTRFz1L._SX425_.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   },
   {
     "name":"Lamp",
     "image":"https://www.eurway.com/images/stanford-led-desk-lamp.jpg",
-    "quantity": 0
+    "quantity": 0,
+    "price": 10
   }
 ]

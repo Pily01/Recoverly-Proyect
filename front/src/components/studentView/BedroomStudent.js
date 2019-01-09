@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import bedroomItems from "../../Jsons/bedroom.json"
-import itemBox from "../helpers/itemBox"
+import ItemBox from "../helpers/ItemBox"
 import Navbar from '../helpers/Navbar.js';
 
 export default class BedroomStudent extends Component {
@@ -13,7 +13,7 @@ export default class BedroomStudent extends Component {
 
   drawItemBox = () => {
     const {bedroomItems} = this.state
-    return bedroomItems.map((item, index) => <itemBox onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
+    return bedroomItems.map((item, index) => <ItemBox onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
   }
 
   onChangeQty = (e) => {
@@ -27,9 +27,12 @@ export default class BedroomStudent extends Component {
 
     return (
       <div>
-        <Navbar/>
+        <Navbar main="student" link1="PROFILE" link2="SAVE" link3="INVENTORY" link4="CENTERS"/>
+        <div className="bedroomBanner">
+          <p className="hugeLetter">BEDROOM</p>
+        </div>
         <div className="ui link cards">
-          {drawItemBox}
+          {drawItemBox()}
         </div>
       </div>
     )

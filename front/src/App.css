@@ -40,11 +40,24 @@
   background-color: goldenrod !important;
   font-size: 17px !important;
   color: antiquewhite !important;
+  margin-bottom: 10px;
 }
 .ui.item.menu .item {
   color: white;
 }
 
+.itemCard{
+  margin: 15px;
+  border: 4px solid grey;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.ui.link.cards{
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
 
 .profile{
   height: 300px;
@@ -56,7 +69,18 @@
 .inventoryBanner{
   height: 500px;
   width: 100%;
-  background-image: url("https://www.tesa.com/en/files/images/201805/1/tesa-smooz-mood-16-9,730722_crop2x1_12.jpg");
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49561605_2192210611043094_1217254750286774272_o.png?_nc_cat=110&_nc_ht=scontent-dfw5-1.xx&oh=c02f778b126a5c23bf91fec2ae8183cf&oe=5CC02C79");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bedroomBanner{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49783355_2192205387710283_6149445453273366528_o.png?_nc_cat=100&_nc_ht=scontent-dfw5-1.xx&oh=309918a09a8133b391725b3fd613ed0c&oe=5CBD6C46");
   background-size: cover;
   display: flex;
   align-items: center;

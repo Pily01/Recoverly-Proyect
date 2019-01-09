@@ -64,6 +64,7 @@ export default class TableInvStudent extends Component {
               <th>Quantity</th>
               <th>USD saved</th>
               <th>Status</th>
+              <th>Edit or Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -82,6 +83,7 @@ export default class TableInvStudent extends Component {
               <th>Quantity</th>
               <th>USD saved</th>
               <th>Status</th>
+              <th>Edit or Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -100,6 +102,7 @@ export default class TableInvStudent extends Component {
               <th>Quantity</th>
               <th>USD saved</th>
               <th>Status</th>
+              <th>Edit or Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -118,6 +121,7 @@ export default class TableInvStudent extends Component {
               <th>Quantity</th>
               <th>USD saved</th>
               <th>Status</th>
+              <th>Edit or Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -136,12 +140,14 @@ export default class TableInvStudent extends Component {
               <th>Quantity</th>
               <th>USD saved</th>
               <th>Status</th>
+              <th>Edit or Delete</th>
             </tr>
           </thead>
           <tbody>
             {drawSchoolItem()}
           </tbody>
         </table>
+        <button className="fluid ui yellow button mediumLetter">Pick Up</button>
 
 
 

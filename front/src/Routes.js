@@ -14,6 +14,7 @@ import KitchenStudent from './components/studentView/KitchenStudent';
 import ElectronicsStudent from './components/studentView/ElectronicsStudent';
 import SchoolSupliesStudent from './components/studentView/SchoolSupliesStudent';
 import TableInvStudent from './components/studentView/TableInvStudent';
+import CentersStudents from './components/studentView/CentersStudents';
 
 const Routes = () => {
   return (
@@ -28,6 +29,7 @@ const Routes = () => {
       <Route path="/inventory/kitchen" component={KitchenStudent}/>
       <Route path="/inventory/electronics" component={ElectronicsStudent}/>
       <Route path="/inventory/school" component={SchoolSupliesStudent}/>
+      <Route path="/student/centers" component={CentersStudents}/>
     </Switch>
   )
 }

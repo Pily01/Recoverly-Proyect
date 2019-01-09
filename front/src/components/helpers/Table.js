@@ -10,7 +10,14 @@ export default function Table({name,quantity,price}) {
        <td>{name}</td>
        <td>{quantity}</td>
        <td>{price}  $</td>
-       {price === 12 ? <td className="negative">Denied</td> : <td className="positive">Approved</td>}
+       {price === 12 ? <td className="negative">Unavailable</td> : <td className="positive">Approved</td>}
+       <td>
+       <div class="ui large buttons">
+          <button class="ui blue basic button">Edit</button>
+          <div class="or"></div>
+          <button class="ui red basic button">Delete</button>
+        </div>
+       </td>
       </tr>
   )
 }

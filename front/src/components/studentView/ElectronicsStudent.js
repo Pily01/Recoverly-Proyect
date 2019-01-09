@@ -49,7 +49,7 @@ export default class ElectronicsStudent extends Component {
         <div className="electronicsBanner">
           <p className="hugeLetter">ELECTRONICS</p>
         </div>
-        <div className="ui link cards">
+        <div className="ui link cards dorms">
           {drawItemBox()}
         </div>
         <Message closeMessage={closeMessage} open={open}/>

@@ -6,10 +6,12 @@ import React, { Component } from 'react'
 import bedroomItems from "../../Jsons/bedroom.json"
 import ItemBox from "../helpers/ItemBox"
 import Navbar from '../helpers/Navbar.js';
+import Message from "../helpers/Message"
 
 export default class BedroomStudent extends Component {
   state= {
     bedroomItems: [],
+    open: false
   }
   componentDidMount = () => {
     this.setState({bedroomItems})
@@ -17,7 +19,18 @@ export default class BedroomStudent extends Component {
 
   drawItemBox = () => {
     const {bedroomItems} = this.state
-    return bedroomItems.map((item, index) => <ItemBox onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
+    return bedroomItems.map((item, index) => <ItemBox openMessage={this.openMessage} onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
+  }
+
+  closeMessage = () => {
+    this.setState({open:false})
+  }
+
+  openMessage = () => {
+    this.setState({open:true})
+    setTimeout(()=>{
+      this.setState({open:false})
+    },3000)
   }
 
   onChangeQty = (e) => {
@@ -27,7 +40,8 @@ export default class BedroomStudent extends Component {
   }
 
   render() {
-    const {drawItemBox} = this
+    const {drawItemBox, closeMessage} = this
+    const { open } = this.state
 
     return (
       <div>
@@ -38,6 +52,7 @@ export default class BedroomStudent extends Component {
         <div className="ui link cards">
           {drawItemBox()}
         </div>
+        <Message closeMessage={closeMessage} open={open}/>
       </div>
     )
   }

@@ -4,12 +4,12 @@
 
 import React from 'react'
 
-export default function ItemBox({name, image, arrayPos, quantity, onChangeQty}) {
+export default function ItemBox({name, image, arrayPos, quantity, onChangeQty, openMessage}) {
   return (
     <div>
       <div className="card itemCard">
     <div className="image">
-      <img width="300px" height="300px" src={image}/>
+      <img width="300px" height="300px" src={image} alt="item"/>
     </div>
     <div className="content">
       <h3 class="ui header">{name}</h3>
@@ -25,7 +25,7 @@ export default function ItemBox({name, image, arrayPos, quantity, onChangeQty}) 
         />
       </div>
       
-      <button name={arrayPos} className="ui yellow button is-info">
+      <button onClick={openMessage} name={arrayPos} className="ui yellow button is-info">
         +
       </button>
     </div>

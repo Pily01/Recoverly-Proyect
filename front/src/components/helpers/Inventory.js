@@ -41,7 +41,7 @@ export default function Inventory() {
         </div>
       </div>
 
-      <div class="ui two column grid">
+      <div class="ui three column grid">
         <div class="column">
          <div class="ui segment">
            <img className="inventoryImg2" src="https://d3b8hk1o42ev08.cloudfront.net/wp-content/uploads/2018/09/unnamed.jpg"/>
@@ -60,6 +60,7 @@ export default function Inventory() {
             
           </div>
         </div>
+        
       </div>
 
     </div>

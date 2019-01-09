@@ -99,6 +99,17 @@
   color: white;
 }
 
+.kitchenBanner{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49255493_2192229764374512_6212597252234412032_o.png?_nc_cat=103&_nc_ht=scontent-dfw5-1.xx&oh=501f3ba14bffbac071affb372b36c423&oe=5CC38BEA");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 
 .inventoryImg{
   height: 400px;

@@ -1,26 +1,21 @@
 ////////////////////////////////////////////////////////////////////////////
-/////////////// B A T H R O O M   S T U D E N T  V I E W ////////////////////
+/////////////// K I T C H E N   S T U D E N T  V I E W /////////////////////
 ////////////////////////////////////////////////////////////////////////////
 
+
 import React, { Component } from 'react'
-import bathroomItems from "../../Jsons/bathroom.json"
+import kitchenItems from "../../Jsons/kitchen.json"
 import ItemBox from "../helpers/ItemBox"
-import Navbar from '../helpers/Navbar.js';
+import Navbar from "../helpers/Navbar"
 import Message from '../helpers/Message'
 
-export default class BathroomStudent extends Component {
+export default class KitchenStudent extends Component {
   state = {
-    bathroomItems: [],
+    kitchenItems: [],
     open: false
   }
-
   componentDidMount = () => {
-    this.setState({bathroomItems})
-  }
-
-  drawItemBox = () => {
-    const {bathroomItems} = this.state
-    return bathroomItems.map((item, index) => <ItemBox  openMessage={this.openMessage} onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
+    this.setState({kitchenItems})
   }
 
   closeMessage = () => {
@@ -34,21 +29,26 @@ export default class BathroomStudent extends Component {
     },3000)
   }
 
-  onChangeQty = (e) => {
-    const {bathroomItems} = this.state
-    bathroomItems[e.target.name].quantity = e.target.value
-    this.setState({bathroomItems})
+  drawItemBox = () => {
+    const {kitchenItems} = this.state
+    return kitchenItems.map((item, index) => <ItemBox openMessage={this.openMessage} onChangeQty={this.onChangeQty} arrayPos={index} key={index} {...item}/> )
   }
+
+  onChangeQty = (e) => {
+    const {kitchenItems} = this.state
+    kitchenItems[e.target.name].quantity = e.target.value
+    this.setState({kitchenItems})
+  }
+
 
   render() {
     const {drawItemBox, closeMessage} = this
     const { open } = this.state
-
     return (
       <div>
         <Navbar main="student" link1="PROFILE" link2="SAVE" link3="INVENTORY" link4="CENTERS"/>
-        <div className="bathroomBanner">
-          <p className="hugeLetter">BATHROOM</p>
+        <div className="kitchenBanner">
+          <p className="hugeLetter">Kitchen</p>
         </div>
         <div className="ui link cards">
           {drawItemBox()}
@@ -58,4 +58,3 @@ export default class BathroomStudent extends Component {
     )
   }
 }
-

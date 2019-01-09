@@ -5,6 +5,7 @@ import Signup from './components/auth/Signup';
 import Profile from './components/studentView/Profile';
 import InventoryStudent from './components/studentView/InventoryStudent';
 import BedroomStudent from "./components/studentView/BedroomStudent"
+import BathroomStudent from "./components/studentView/BathroomStudent"
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
       <Route path="/student/profile" component = {Profile}/>
       <Route path="/student/save" component = {InventoryStudent}/>
       <Route path="/inventory/bedroom" component={BedroomStudent}/>
+      <Route path="/inventory/bathroom" component={BathroomStudent}/>
     </Switch>
   )
 }

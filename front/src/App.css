@@ -88,6 +88,18 @@
   color: white;
 }
 
+.bathroomBanner{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49784204_2192220054375483_1140800896444137472_o.png?_nc_cat=108&_nc_ht=scontent-dfw5-1.xx&oh=d0b732860a1bc222bd7a32b25f0e32b4&oe=5CCEAA91");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
 .inventoryImg{
   height: 400px;
   width: 100%;

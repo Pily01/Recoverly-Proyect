@@ -1,0 +1,27 @@
+[
+  {
+    "name":"iPhone Charging Cable",
+    "image":"https://www.electronama.com/wp-content/uploads/2016/04/iPhone-lightning-charging-cable-600x600.jpg",
+    "quantity": 0
+  },
+  {
+    "name":"Android Charging Cable",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/615AchvgpQL._SX425_.jpg",
+    "quantity": 0
+  },
+  {
+    "name":"Extension Cord",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/71nltAMPwLL._SX425_.jpg",
+    "quantity": 0
+  },
+  {
+    "name":"Surge Protector",
+    "image":"https://cdn.shopify.com/s/files/1/2278/3399/products/71DFeVVPwJL._SL1500.jpg?v=1502913782",
+    "quantity": 0
+  },
+  {
+    "name":"Power Chord",
+    "image":"https://media.cablesandkits.com/p/C1683120a.jpg",
+    "quantity": 0
+  }
+]

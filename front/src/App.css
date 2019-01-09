@@ -110,6 +110,17 @@
   color: white;
 }
 
+.electronicsBanner{
+  height: 500px;
+  width: 100%;
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49696323_2192257241038431_790018784097206272_o.png?_nc_cat=111&_nc_ht=scontent-dfw5-1.xx&oh=dfdc5ccccb779bbd5a40389aeed1d8fb&oe=5CCE4B32");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 
 .inventoryImg{
   height: 400px;

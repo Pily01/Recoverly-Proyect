@@ -5,7 +5,7 @@
 import React, { Component } from 'react'
 import bedroomItems from "../../Jsons/bedroom.json"
 import ItemBox from "../helpers/ItemBox"
-import Navbar from '../helpers/Navbar.js';
+import Navbar from '../helpers/Navbar.js'
 import Message from "../helpers/Message"
 
 export default class BedroomStudent extends Component {

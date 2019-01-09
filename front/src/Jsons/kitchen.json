@@ -1,0 +1,27 @@
+[
+  {
+    "name":"Plate",
+    "image":"https://images.crateandbarrel.com/is/image/Crate/WhitePorcelainDinnerPlatesS8SHS16",
+    "quantity": 0
+  },
+  {
+    "name":"Glass",
+    "image":"https://images.kitchenwaredirect.com.au/750px/Rona-Hi-Ball-Milan-Glass-6pc-465ml_1a_750px.jpg",
+    "quantity": 0
+  },
+  {
+    "name":"Mug",
+    "image":"https://images.crateandbarrel.com/is/image/Crate/EverdayMugsCHF15",
+    "quantity": 0
+  },
+  {
+    "name":"Bowl",
+    "image":"https://images.crateandbarrel.com/is/image/Crate/BistroBowlFHS16/?$web_product_hero$&151204144020&wid=625&hei=625",
+    "quantity": 0
+  },
+  {
+    "name":"Flatware package",
+    "image":"https://cdn.shopify.com/s/files/1/0818/5369/products/FlatwareSetting-A_1024x.jpg?v=1533065009",
+    "quantity": 0
+  }
+]

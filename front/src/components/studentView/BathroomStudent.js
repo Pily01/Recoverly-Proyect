@@ -3,6 +3,7 @@
 ////////////////////////////////////////////////////////////////////////////
 
 import React, { Component } from 'react'
+import {Link} from "react-router-dom"
 import bathroomItems from "../../Jsons/bathroom.json"
 import ItemBox from "../helpers/ItemBox"
 import Navbar from '../helpers/Navbar.js';
@@ -50,10 +51,21 @@ export default class BathroomStudent extends Component {
         <div className="bathroomBanner">
           <p className="hugeLetter">BATHROOM</p>
         </div>
+
+        <Message closeMessage={closeMessage} open={open}/>
+        
         <div className="ui link cards">
           {drawItemBox()}
         </div>
-        <Message closeMessage={closeMessage} open={open}/>
+        
+        <Link to="/student/save">
+          <button class="ui left attached yellow button mediumLetter">Go Back</button>
+        </Link>
+
+        <Link to="/student/inventory">
+          <button class="right attached ui yellow button mediumLetter">Your Inventory</button>
+        </Link>
+      
       </div>
     )
   }

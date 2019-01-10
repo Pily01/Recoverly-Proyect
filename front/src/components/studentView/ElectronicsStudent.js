@@ -4,6 +4,7 @@
 
 
 import React, { Component } from 'react'
+import {Link} from "react-router-dom"
 import electronicItems from "../../Jsons/electronics.json"
 import ItemBox from "../helpers/ItemBox"
 import Navbar from '../helpers/Navbar.js'
@@ -49,10 +50,18 @@ export default class ElectronicsStudent extends Component {
         <div className="electronicsBanner">
           <p className="hugeLetter">ELECTRONICS</p>
         </div>
+        <Message closeMessage={closeMessage} open={open}/>
         <div className="ui link cards dorms">
           {drawItemBox()}
         </div>
-        <Message closeMessage={closeMessage} open={open}/>
+        
+        <Link to="/student/save">
+          <button class="ui left attached yellow button mediumLetter">Go Back</button>
+        </Link>
+
+        <Link to="/student/inventory">
+          <button class="right attached ui yellow button mediumLetter">Your Inventory</button>
+        </Link>
       </div>
     )
   }

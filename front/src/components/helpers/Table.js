@@ -9,7 +9,7 @@ export default function Table({name,quantity,price}) {
       <tr>
        <td>{name}</td>
        <td>{quantity}</td>
-       <td>{price}  $</td>
+       <td>{price*quantity}  $</td>
        {price === 12 ? <td className="negative">Unavailable</td> : <td className="positive">Approved</td>}
        <td>
        <div class="ui large buttons">

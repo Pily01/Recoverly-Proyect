@@ -19,17 +19,17 @@ import CentersStudents from './components/studentView/CentersStudents';
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/home" component={Home}/>
-      <Route path="/signup" component={Signup}/>
-      <Route path="/student/profile" component = {Profile}/>
-      <Route path="/student/save" component = {InventoryStudent}/>
-      <Route path="/student/inventory" component = {TableInvStudent}/>
-      <Route path="/inventory/bedroom" component={BedroomStudent}/>
-      <Route path="/inventory/bathroom" component={BathroomStudent}/>
-      <Route path="/inventory/kitchen" component={KitchenStudent}/>
-      <Route path="/inventory/electronics" component={ElectronicsStudent}/>
-      <Route path="/inventory/school" component={SchoolSupliesStudent}/>
-      <Route path="/student/centers" component={CentersStudents}/>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/signup" component={Signup}/>
+      <Route exact path="/student/profile" component = {Profile}/>
+      <Route exact path="/student/save" component = {InventoryStudent}/>
+      <Route exact path="/student/inventory" component = {TableInvStudent}/>
+      <Route exact path="/inventory/bedroom" component={BedroomStudent}/>
+      <Route exact path="/inventory/bathroom" component={BathroomStudent}/>
+      <Route exact path="/inventory/kitchen" component={KitchenStudent}/>
+      <Route exact path="/inventory/electronics" component={ElectronicsStudent}/>
+      <Route exact path="/inventory/school" component={SchoolSupliesStudent}/>
+      <Route exact path="/student/centers" component={CentersStudents}/>
     </Switch>
   )
 }

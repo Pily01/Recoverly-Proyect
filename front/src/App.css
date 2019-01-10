@@ -104,6 +104,7 @@
 }
 
 .inventoryBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49561605_2192210611043094_1217254750286774272_o.png?_nc_cat=110&_nc_ht=scontent-dfw5-1.xx&oh=c02f778b126a5c23bf91fec2ae8183cf&oe=5CC02C79");
@@ -115,6 +116,7 @@
 }
 
 .bedroomBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49783355_2192205387710283_6149445453273366528_o.png?_nc_cat=100&_nc_ht=scontent-dfw5-1.xx&oh=309918a09a8133b391725b3fd613ed0c&oe=5CBD6C46");
@@ -126,6 +128,7 @@
 }
 
 .bathroomBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49784204_2192220054375483_1140800896444137472_o.png?_nc_cat=108&_nc_ht=scontent-dfw5-1.xx&oh=d0b732860a1bc222bd7a32b25f0e32b4&oe=5CCEAA91");
@@ -137,6 +140,7 @@
 }
 
 .kitchenBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49255493_2192229764374512_6212597252234412032_o.png?_nc_cat=103&_nc_ht=scontent-dfw5-1.xx&oh=501f3ba14bffbac071affb372b36c423&oe=5CC38BEA");
@@ -148,6 +152,7 @@
 }
 
 .electronicsBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49696323_2192257241038431_790018784097206272_o.png?_nc_cat=111&_nc_ht=scontent-dfw5-1.xx&oh=dfdc5ccccb779bbd5a40389aeed1d8fb&oe=5CCE4B32");
@@ -159,6 +164,7 @@
 }
 
 .schoolBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/49372217_2192264214371067_1600871715812933632_o.png?_nc_cat=102&_nc_ht=scontent-dfw5-1.xx&oh=66270779a4d6aa37ee9e490d3d050d96&oe=5CD2AFEA");
@@ -170,6 +176,7 @@
 }
 
 .inventoryTableBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/50091289_2192645610999594_8701825885994483712_o.png?_nc_cat=106&_nc_ht=scontent-dfw5-1.xx&oh=fdfb3109212b5993d70aec40b51d805a&oe=5CC4952F");
@@ -181,6 +188,7 @@
 }
 
 .centersBanner{
+  font-family: 'Staatliches', cursive !important; 
   height: 380px;
   width: 100%;
   background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/50110097_2192719077658914_6245094645538226176_o.png?_nc_cat=104&_nc_ht=scontent-dfw5-1.xx&oh=d73e2e3681e4dbaa41fcb42f56576f74&oe=5C8F193A");
@@ -219,7 +227,7 @@
   margin-top: 20px !important;
 }
 .hugeLetter{
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .ui.card .image>.ui.ribbon.label, .ui.image>.ui.ribbon.label {

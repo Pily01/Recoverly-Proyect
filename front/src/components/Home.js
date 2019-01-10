@@ -5,8 +5,10 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar main="home" link1="HOME" link2="ABOUT" link3="SIGN UP" link4="LOGIN"/>
-        <div className="landing"></div>
+        <Navbar main="home" link1="HOME" link2="" link3="SIGN UP" link4="LOGIN"/>
+        <div className="landing">
+        </div>
+        
         <div className="container">
 
           <div class="ui link cards container">
@@ -29,11 +31,10 @@ export default class Home extends Component {
             </div>
 
           </div>
+         
         </div>
         
-        
-      
-        
+        <button className="fluid ui yellow button mediumLetter">START HERE</button>
         
       </div>
     )

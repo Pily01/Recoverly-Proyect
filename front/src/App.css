@@ -104,6 +104,19 @@
   height: 400px;
 }
 
+.formContainer{
+  display: flex;
+  height: 860px;
+  align-content: center;
+  justify-content: center;
+}
+
+.ui.form{
+  width: 40%;
+  height: 400px;
+  align-self: center;
+}
+
 .profile{
   height: 300px;
   width: 100%;

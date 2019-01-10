@@ -1,5 +1,5 @@
 import axios from "axios"
-const host = "http://localhost:3000/auth"
+const host = "https://recoverlyironhack.herokuapp.com/auth"
 
 export const signup = (user) => {
   return axios.post(host + "/signup", user, {})

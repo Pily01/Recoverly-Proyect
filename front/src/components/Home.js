@@ -2,6 +2,7 @@
 
 
 import React, { Component } from 'react'
+import {Link} from "react-router-dom"
 import Navbar from "../components/helpers/Navbar"
 
 export default class Home extends Component {
@@ -36,8 +37,9 @@ export default class Home extends Component {
           </div>
          
         </div>
-        
-        <button className="fluid ui yellow button mediumLetter">START HERE</button>
+        <Link to="/signup">
+          <p className="fluid ui yellow button mediumLetter">Start Here</p>
+        </Link>
         
       </div>
     )

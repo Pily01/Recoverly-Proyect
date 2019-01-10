@@ -6,6 +6,7 @@ import kitchenItems from "../../Jsons/kitchen.json"
 import bedroomItems from "../../Jsons/bedroom.json"
 import bathroomItems from "../../Jsons/bathroom.json"
 import Table from '../helpers/Table.js';
+import {Link} from "react-router-dom"
 
 export default class TableInvStudent extends Component {
   state = {
@@ -147,7 +148,9 @@ export default class TableInvStudent extends Component {
             {drawSchoolItem()}
           </tbody>
         </table>
-        <button className="fluid ui yellow button mediumLetter">Pick Up</button>
+        <Link to="/student/centers">
+          <button className="fluid ui yellow button mediumLetter">Pick Up</button>        
+        </Link>
 
 
 

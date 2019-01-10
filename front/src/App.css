@@ -210,8 +210,20 @@
   width: 100%;
 }
 
+.ui.attached.positive.message, .ui.positive.message {
+  margin-left: 20px;
+}
+
+.thirty{
+  width: 28vw !important;
+  margin-top: 20px !important;
+}
 .hugeLetter{
   font-size: 60px;
+}
+
+.ui.card .image>.ui.ribbon.label, .ui.image>.ui.ribbon.label {
+  font-size: 20px;
 }
 
 .infoSection{

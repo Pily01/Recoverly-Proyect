@@ -2,31 +2,37 @@
   {
     "name":"Warren Towers",
     "image":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Warrentowers.jpg",
-    "adress": "Commonwealth AV. 700"
+    "adress": "Commonwealth AV. 700",
+    "number": 1
   },
   {
     "name":"West Campus",
-    "image":"http://thetangential.com/wp-content/uploads/2011/09/Sleeper-Hall.jpg",
-    "adress": "Commonwealth AV. 632"
+    "image":"https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2016/02/04/BostonGlobe.com/Metro/Images/RENDERING%20CROPPED,%20rotated.jpg",
+    "adress": "Commonwealth AV. 632",
+    "number": 2
   },
   {
     "name":"George Sherman Union",
     "image":"http://space.admin.ucla.edu/space_plsql/pkg_library.show_mime_file?p_file_id=1168",
-    "adress": "Midvale Avenue 230"
+    "adress": "Midvale Avenue 230",
+    "number": 3
   },
   {
     "name":"Science BUilding",
     "image":"http://housing.uic.edu/wp-content/uploads/sites/23/2017/07/CMS-600x365.png",
-    "adress": "Jester Street 23th"
+    "adress": "Jester Street 23th",
+    "number": 4
   },
   {
     "name":"South Campus Center",
     "image":"https://www.catholicnewsagency.com/images/Siena_Hall_Credit_Aquinas_College_CNA.jpg?w=760",
-    "adress": "Bulck Street 15th"
+    "adress": "Bulck Street 15th",
+    "number": 5
   },
   {
     "name":"East Campus Center",
     "image":"http://housing.uic.edu/wp-content/uploads/sites/23/2017/07/CMN-600x365.png",
-    "adress": "Commonwealth AV. 570"
+    "adress": "Commonwealth AV. 570",
+    "number": 5
   }
 ]

@@ -96,10 +96,24 @@
   margin-right: 30px;
 }
 
+.container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
 .profile{
   height: 300px;
   width: 100%;
   background-image: url("https://www.society19.com/wp-content/uploads/2015/06/main2.jpg");
+  background-size: cover;
+}
+
+.landing{
+  height: 550px;
+  background-image: url("https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/50259473_2192794717651350_671364608828637184_o.png?_nc_cat=104&_nc_ht=scontent-dfw5-1.xx&oh=ca9fdf8fc84e7d9ef592c87f5b7c9f01&oe=5CD33905");
   background-size: cover;
 }
 

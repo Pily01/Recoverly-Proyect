@@ -15,12 +15,14 @@ import ElectronicsStudent from './components/studentView/ElectronicsStudent';
 import SchoolSupliesStudent from './components/studentView/SchoolSupliesStudent';
 import TableInvStudent from './components/studentView/TableInvStudent';
 import CentersStudents from './components/studentView/CentersStudents';
+import Login from './components/auth/Login';
 
 const Routes = () => {
   return (
     <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/signup" component={Signup}/>
+      <Route exact path="/login" component={Login}/>
       <Route exact path="/student/profile" component = {Profile}/>
       <Route exact path="/student/save" component = {InventoryStudent}/>
       <Route exact path="/student/inventory" component = {TableInvStudent}/>

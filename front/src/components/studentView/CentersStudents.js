@@ -5,11 +5,15 @@ import DormBox from '../helpers/DormBox.js';
 
 export default class CentersStudents extends Component {
   state = {
-    centers:[]
+    centers:[],
+    user:{}
   }
 
   componentDidMount = () => {
     this.setState({centers})
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
   }
   drawDormCard = () => {
     const {centers} = this.state

@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import {signup} from "../../services/auth"
+import {login} from "../../services/auth"
 
-
-export default class Signup extends Component {
+export default class Login extends Component {
   state = {
     user: {}
   }
@@ -10,8 +9,13 @@ export default class Signup extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const {user} = this.state
-    signup(user)
-    .then(user => console.log(user))
+    login(user)
+    .then(user => {
+      if(user.email){
+        localStorage.setItem("user", JSON.stringify(user))
+        this.props.history.push("/student/profile")
+      }
+    })
     .catch(err => console.log(err))
 
   }
@@ -32,7 +36,7 @@ export default class Signup extends Component {
           <form onSubmit={this.handleSubmit} className="ui form">
             <h2 class="ui center aligned icon header">
               <i class="circular users icon"></i>
-              Sign Up
+              Login
             </h2>
               <div className="field">
                 <label>Email</label>
@@ -56,5 +60,3 @@ export default class Signup extends Component {
     )
   }
 }
-
-

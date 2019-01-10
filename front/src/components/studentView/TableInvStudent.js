@@ -20,11 +20,15 @@ export default class TableInvStudent extends Component {
     kitchenItems: [],
     bedroomItems: [],
     bathroomItems:[],
+    user:{}
   }
 
   componentDidMount = () => {
     this.setState({electronicItems, schoolItems, kitchenItems,
     bedroomItems, bathroomItems})
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
   }
 
   drawBedroomItem = () => {

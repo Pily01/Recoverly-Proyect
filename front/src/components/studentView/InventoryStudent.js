@@ -7,6 +7,16 @@ import Navbar from '../helpers/Navbar';
 import Inventory from "../helpers/Inventory"
 
 export default class InventoryStudent extends Component {
+  state = {
+    user: {}
+  }
+
+  componentDidMount = () => {
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
+  }
+  
   render() {
     return (
       <div>

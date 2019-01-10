@@ -12,10 +12,14 @@ import Message from "../helpers/Message"
 export default class BedroomStudent extends Component {
   state= {
     bedroomItems: [],
-    open: false
+    open: false,
+    user: {}
   }
   componentDidMount = () => {
     this.setState({bedroomItems})
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
   }
 
   drawItemBox = () => {

@@ -13,10 +13,14 @@ import Message from '../helpers/Message'
 export default class KitchenStudent extends Component {
   state = {
     kitchenItems: [],
-    open: false
+    open: false,
+    user:{}
   }
   componentDidMount = () => {
     this.setState({kitchenItems})
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
   }
 
   closeMessage = () => {

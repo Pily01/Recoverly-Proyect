@@ -13,11 +13,15 @@ import Message from "../helpers/Message"
 export default class SchoolSupliesStudent extends Component {
   state = {
     schoolItems: [],
-    open: false
+    open: false,
+    user:{}
   }
 
   componentDidMount = () => {
     this.setState({schoolItems})
+    const user = JSON.parse(localStorage.getItem("user"))
+    if (!user) return this.props.history.push("/login")
+    return this.setState({user})
   }
 
   drawItemBox = () => {
